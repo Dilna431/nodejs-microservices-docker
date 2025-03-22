@@ -53,42 +53,48 @@ Prepare the services for running
    
     docker-compose up
 
-This will start all the services defined in docker-compose.yml. The services will be accessible via the following ports:
-User Service: http://localhost:3000
-Product Service: http://localhost:3001
-Order Service: http://localhost:3002
-Gateway Service: http://localhost:3003
+This will start all the services defined in docker-compose.yml. The services will be accessible via the following ports:  
+User Service: http://localhost:3000  
+Product Service: http://localhost:3001  
+Order Service: http://localhost:3002  
+Gateway Service: http://localhost:3003  
+
 All services will be running in the background.
 
 ## Testing the Endpoints
 
-Once the services are up and running, you can test them using tools like curl, Postman, or a web browser.
-http://localhost:3000/users
-http://localhost:3001/products
-http://localhost:3002/orders
-http://localhost:3003/users
+Once the services are up and running, you can test them using tools like curl, Postman, or a web browser.  
+http://localhost:3000/users  
+http://localhost:3001/products  
+http://localhost:3002/orders  
+http://localhost:3003/users  
+
 
 ## Screenshots
 Docker-compose output:
 
-![alt text](image-4.png)
+![image](https://github.com/user-attachments/assets/a1d9b625-7cdc-49e2-9601-6fb070c3d462)  
 
 Here are some example screenshots of the application running:
 User Service Endpoints:
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/3ecbf48d-10d9-4da2-a385-39f4a4b7d49e)  
+
 
 Product Service Endpoint
 
-![alt text](image-1.png)
+![image-1](https://github.com/user-attachments/assets/52dae3fc-7b4e-4265-9046-3e3f8a940ed0)  
+
 
 Order Service Endpoint
 
-![alt text](image-2.png)
+![image-2](https://github.com/user-attachments/assets/6cac5eba-441f-4f2e-bd44-542556978ea6)  
+
 
 Gateway Service Routing Request to User Service
 
-![alt text](image-3.png)
+![image-3](https://github.com/user-attachments/assets/27413d22-f6f9-40aa-9e3d-ed993e50a143)  
+
 
 
 
